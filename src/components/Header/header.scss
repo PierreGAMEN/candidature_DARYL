@@ -24,31 +24,66 @@ header {
         transition: 0.2s linear;
       }
     }
-    
+
     button {
-        background-color: rgba(245, 245, 220, 0);
-        border: none;
-        cursor: pointer;
- 
+      background-color: rgba(245, 245, 220, 0);
+      border: none;
+      cursor: pointer;
     }
   }
 
-  .container-language {
+  .container_language {
     border: 1px solid rgb(202, 202, 202);
     padding: 0.8rem;
     display: flex;
     gap: 1rem;
     border-radius: 10px;
     cursor: pointer;
+    position: relative;
+  }
+  
+  .container_language.open_top {
+    border-radius: 10px 10px 0 0;
+    border-bottom: none;
+    background-color: rgb(202, 202, 202);
+    color: white;
+  }
+  
+  .container_language_list {
+    position: absolute;
+    top: 50px;
+    left: -0.5px;
+    border: 1px solid rgb(202, 202, 202);
+    display: flex;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100%;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    justify-content: center;
+  }
+  
+  .container_language_list:hover {
+    background-color: rgb(202, 202, 202);
+    color: white;
+  }
+  
+  .container_language_list.open_bottom {
+    border-radius: 0 0 10px 10px;
+    border-top: none;
+  }
+  
+  .container_language:hover {
+    background-color: rgb(202, 202, 202);
+    color: white;
+  }
+  
+  .container_language img {
+    width: 25px;
+    height: 20px;
+  }
 
-    &:hover {
-        background-color: rgb(202, 202, 202);
-        color: white
-    }
-
-    img {
-      width: 25px;
-      height: 20px;
-    }
+  .arrow {
+    color: white;
   }
 }

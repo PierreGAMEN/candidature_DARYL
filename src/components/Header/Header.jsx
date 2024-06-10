@@ -1,6 +1,8 @@
+import { useState } from "react";
 import "./header.scss";
 
 const Header = () => {
+  const [open, setOpen] = useState(false);
   return (
     <header>
       <div>
@@ -15,14 +17,20 @@ const Header = () => {
         <a href="#">A propos</a>
         <a href="#">Contact</a>
         <div>
-          <div className="container-language">
+          <div onClick={() => setOpen(!open)} className={`container_language ${open ? "open_top" : ""}`}>
             <img
               src="https://static.parastorage.com/services/linguist-flags/1.663.0/assets/flags/corner/FRA.png"
               alt="drapeau français"
             />
-            <button className="material-symbols-rounded">
-              keyboard_arrow_down
+            <button className={`material-symbols-rounded ${open ? "arrow" : ""}`}>
+              {!open ? "keyboard_arrow_down" : "keyboard_arrow_up"}
             </button>
+            {open && <div className={`container_language_list ${open ? "open_bottom" : ""}`}>
+              <img
+              src="https://static.parastorage.com/services/linguist-flags/1.663.0/assets/flags/corner/FRA.png"
+              alt="drapeau français"
+            />
+              </div>}
           </div>
         </div>
       </nav>
