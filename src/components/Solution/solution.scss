@@ -1,0 +1,27 @@
+.container_solution {
+  color: black;
+  background-image: url("https://images.pexels.com/photos/911758/pexels-photo-911758.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 5rem;
+
+  &_text {
+    width: 80%;
+    margin: 0 auto;
+    color: rgb(0, 0, 0);
+    font-size: 1.3rem;
+    font-family: "Raleway", sans-serif;
+
+    .divider {
+      width: 60px;
+      height: 20px;
+      background-color: rgb(44, 76, 255);
+    }
+
+    h2 {
+      text-transform: uppercase;
+      font-size: 5rem;
+      margin-top: 0;
+    }
+  }
+}
