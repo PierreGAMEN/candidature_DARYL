@@ -5,6 +5,7 @@ header {
   gap: 5vw;
   justify-content: center;
   align-items: center;
+  padding-bottom: 1rem;
 
   img {
     width: 300px;
@@ -52,7 +53,7 @@ header {
   .container_language_list {
     position: absolute;
     top: 50px;
-    left: -0.5px;
+    left: -1px;
     border: 1px solid rgb(202, 202, 202);
     display: flex;
     border-radius: 10px;
@@ -61,6 +62,7 @@ header {
     padding-top: 0.8rem;
     padding-bottom: 0.8rem;
     justify-content: center;
+    background-color: white;
   }
   
   .container_language_list:hover {
