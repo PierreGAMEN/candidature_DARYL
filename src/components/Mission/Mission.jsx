@@ -3,7 +3,7 @@ import "./mission.scss";
 
 const Mission = () => {
   return (
-    <section className="container_mission">
+    <section id="mission" className="container_mission">
       <div className="overlay"></div>
       <div className="container_mission_text">
         <div className="divider"></div>

@@ -1,0 +1,50 @@
+.container_description {
+  display: flex;
+  color: white;
+
+  .container_description_title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+    min-width: 20%;
+
+    h3 {
+      text-transform: uppercase;
+      font-size: 2.5rem;
+    }
+  }
+
+  .container_description_text {
+    padding: 1rem;
+  }
+}
+
+.blue {
+  background-color: #2b48ff;
+}
+
+.lightblue {
+  background-color: #556dff;
+}
+
+.color_33a1fd {
+  background-color: #33a1fd;
+}
+
+.color_008afc {
+  background-color: #008afc;
+}
+
+.color_4d6688 {
+  background-color: #4d6688;
+}
+.color_21406a {
+  background-color: #21406a;
+}
+
+@media (max-width: 1200px) {
+  .container_description {
+    flex-direction: column;
+  }
+}

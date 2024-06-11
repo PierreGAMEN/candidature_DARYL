@@ -1,8 +1,28 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import "./header.scss";
 
 const Header = () => {
   const [open, setOpen] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
+
+    useEffect(() => {
+        // Fonction pour mettre à jour l'état en fonction de la taille de la fenêtre
+        const handleResize = () => {
+          setIsMobile(window.innerWidth <= 960); // Modifier la taille selon vos besoins
+        };
+    
+        // Appeler handleResize une fois au montage pour initialiser l'état
+        handleResize();
+    
+        // Ajouter l'événement de redimensionnement
+        window.addEventListener("resize", handleResize);
+    
+        // Nettoyer l'événement de redimensionnement lors du démontage du composant
+        return () => {
+          window.removeEventListener("resize", handleResize);
+        };
+      }, []);
+
   return (
     <header>
       <div>
@@ -11,7 +31,7 @@ const Header = () => {
           alt="logo site DARYL social software"
         />
       </div>
-      <nav>
+      {!isMobile && <nav>
         <a href="#">Accueil</a>
         <a href="#">Nos solutions</a>
         <a href="#">A propos</a>
@@ -33,7 +53,7 @@ const Header = () => {
               </div>}
           </div>
         </div>
-      </nav>
+      </nav>}
     </header>
   );
 };

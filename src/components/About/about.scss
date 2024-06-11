@@ -1,0 +1,35 @@
+.container_about {
+    color: black;
+    background-image: url("https://images.pexels.com/photos/187913/pexels-photo-187913.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 5rem;
+    filter: hue-rotate(350deg);
+  
+    &_title {
+      width: 70%;
+      margin: 0 auto;
+      color: rgb(255, 255, 255);
+      font-size: 1.3rem;
+      font-family: "Raleway", sans-serif;
+  
+  
+      .divider {
+        width: 60px;
+        height: 20px;
+        background-color: rgb(0, 68, 255);
+      }
+  
+      h2 {
+        text-transform: uppercase;
+        font-size: 5rem;
+        margin-top: 0;
+      }
+    }
+
+    .container_about_description{
+        width: 70%;
+        margin: 0 auto;
+    }
+  }
+  

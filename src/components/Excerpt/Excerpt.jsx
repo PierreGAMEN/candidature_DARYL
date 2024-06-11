@@ -3,7 +3,7 @@ import "./excerpt.scss";
 
 const Excerpt = () => {
   return (
-    <section className="container_excerpt">
+    <section id="excerpt" className="container_excerpt">
       <div className="container_excerpt_text">
         <div className="divider"></div>
         <h2>Qui suis-je ?</h2>

@@ -4,7 +4,7 @@ import "./figures.scss";
 
 const Figures = () => {
   return (
-    <section className="container_figures">
+    <section id="figures" className="container_figures">
       <div className="overlay"></div>
       <div className="container_figures_text">
         <div className="divider"></div>
