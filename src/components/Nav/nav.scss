@@ -1,0 +1,44 @@
+.nav_side {
+    width: 180px;
+    position: fixed;
+    top:50vh;
+    right: 20px;
+
+    div{
+        display: flex;
+        align-items: center;
+        margin: 0;
+        text-decoration: none;
+        color: grey;
+      
+
+
+        a {
+            height: 20px;
+            width: 20px;
+            border-radius: 20px;
+            border: 1px solid grey;
+            margin: 5px;
+            cursor: pointer;
+          
+            
+
+            &:hover {
+                background-color: grey;
+            }
+            
+            
+        }
+        p {
+            flex-grow: 1;
+            margin: 5px;
+            opacity: 0;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        .hover {
+            opacity: 1;
+        }
+    }
+}
+
