@@ -11,10 +11,10 @@ const Techno = ({ title, description, image }) => {
 
   return (
     <div
-      className={`container_techno ${event ? "anim" : "reverse"}`}
+      className={`container_techno ${event ? "anim" : ""}`}
       onClick={handleChange}
     >
-      {!event && <img src={image} alt="" />}
+      {!event && <img src={image} alt={`Logo ${title}`}/>}
       <div className={`container_techno_text ${event ? "anim" : ""}`}>
         {!event ? (
           <h3>{title}</h3>

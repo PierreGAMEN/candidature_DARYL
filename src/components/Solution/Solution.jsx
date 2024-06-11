@@ -25,6 +25,11 @@ const Solution = () => {
             description="J'ai pour habitude d'utiliser SCSS plutôt que le CSS classique"
           />
           <Techno
+            title="Tailwind CSS"
+            image="https://svgl.app/library/tailwindcss.svg"
+            description="Utilisé sur quelques projet, tailwind est pratique mais, à mon sens, réduit la lisibilité du code."
+          />
+          <Techno
             title="React"
             image="https://svgl.app/library/react.svg"
             description="C'est la librairie que j'utilise le plus pour développer mes projets front."
@@ -68,6 +73,16 @@ const Solution = () => {
             title="Vite"
             image="https://svgl.app/library/vitejs.svg"
             description="Je développe principalement mes projets front avec Vite."
+          />
+          <Techno
+            title="Astro"
+            image="https://svgl.app/library/astro.svg"
+            description="Utilisé sur quelques projets, Astro est pratique avec notamment son système de routage par 'Page'."
+          />
+          <Techno
+            title="Next.js"
+            image="https://svgl.app/library/nextjs_icon_dark.svg"
+            description="Utilisé sur quelques projet, Next s'intègre parfaitement avec React et permet un déploiement rapide avec Vercel"
           />
         </div>
       </div>
