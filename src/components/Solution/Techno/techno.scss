@@ -1,0 +1,59 @@
+.container_techno {
+    height: 130px;
+    width: 360px;
+    display: flex;
+    background-color: white;
+    align-items: center;
+    box-shadow: 2px 2px 2px 5px black;
+    cursor: pointer;
+    padding: 1rem;
+
+
+    img {
+        height: 100%;
+        
+    }
+
+    &_text {
+        padding: 1rem;
+
+
+        
+        p{
+            opacity: 0;
+        }
+    }
+
+    
+}
+
+.anim {
+    animation: animDiv 1s linear forwards;
+}
+
+.animP {
+    animation: animP 1s ease-in forwards;
+}
+
+
+@keyframes animDiv {
+    0% {
+        transform: rotateX(0deg);
+    }
+    40% {
+        transform: rotateX(180deg);
+        
+    }
+    100% {
+        transform: rotateX(180deg);
+    }
+}
+
+@keyframes animP {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
