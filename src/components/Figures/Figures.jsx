@@ -16,15 +16,15 @@ const Figures = () => {
           />
           <Figure
             figure="6"
-            description="6 mois de formartion Développeur FullStack avec l'apprentissade de React en spécialisation."
+            description="6 mois de formartion Développeur FullStack."
           />
           <Figure
             figure="50"
-            description="Projets et mini-projets, allant du Tic-Tac-Toe à un site multipage, multivue et sécurisée."
+            description="Projets et mini-projets."
           />
           <Figure
             figure="1"
-            description="Projet de fin de formartion qui regroupe toutes les connaissances fondamentales pour être développeur"
+            description="Projet de fin de formartion complet"
           />
         </div>
       </div>

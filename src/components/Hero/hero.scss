@@ -5,7 +5,6 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-
   background: no-repeat url(https://static.wixstatic.com/media/9193e3_b893694c02bb4121a1f2c6ae3dd9d229~mv2.jpg/v1/fill/w_1719,h_1104,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/9193e3_b893694c02bb4121a1f2c6ae3dd9d229~mv2.jpg);
   background-size: cover;
 
@@ -71,3 +70,20 @@
   
 }
 
+@media (max-width: 960px) {
+
+  .container_hero {
+  h1 {
+    font-size: 3rem;
+  }
+
+  p{
+    font-size: 1rem;
+  }
+
+  a{
+    width: 50%;
+    margin-top: 1rem;
+  }
+}
+}

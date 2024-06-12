@@ -24,8 +24,6 @@
       margin-top: 0;
     }
   }
-
-  
 }
 
 .container_solution_techno {
@@ -34,27 +32,44 @@
   flex-wrap: wrap;
 }
 
-
-@media (max-width:1000px) {
+@media (max-width: 1000px) {
   .container_solution {
-
-  
     &_text {
       width: 80%;
-  
+
       .divider {
         width: 60px;
         height: 20px;
         background-color: rgb(44, 76, 255);
       }
-  
+
       h2 {
         text-transform: uppercase;
         font-size: 3rem;
         margin-top: 0;
       }
     }
-  
-    
+  }
+}
+
+@media (max-width: 960px) {
+  .container_solution {
+    padding: 1rem;
+    padding-top: 2rem;
+
+    &_text {
+      width: 90%;
+      font-size: 1rem;
+
+      h2 {
+        font-size: 2.5rem;
+      }
+
+      .divider {
+        width: 60px;
+        height: 10px;
+        background-color: rgb(0, 68, 255);
+      }
+    }
   }
 }

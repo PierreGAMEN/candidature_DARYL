@@ -36,3 +36,25 @@
     }
   }
 }
+
+@media (max-width:960px) {
+  .container_mission {
+    padding: 1rem;
+    padding-top: 2rem;
+
+    &_text {
+      width: 90%;
+      font-size: 1rem;
+
+      h2 {
+        font-size: 2.5rem;
+      }
+
+      .divider {
+        width: 60px;
+        height: 10px;
+        background-color: rgb(255, 255, 255);
+      }
+    }
+  }
+}
