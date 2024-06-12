@@ -2,8 +2,10 @@
 
 import "./App.css";
 import About from "./components/About/About";
+import Contact from "./components/Contact/Contact";
 import Excerpt from "./components/Excerpt/Excerpt";
 import Figures from "./components/Figures/Figures";
+import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import Hero from "./components/Hero/Hero";
 import Mission from "./components/Mission/Mission";
@@ -22,7 +24,9 @@ function App() {
         <Figures />
         <About />
         <Nav />
+        <Contact />
       </main>
+      <Footer />
     </>
   );
 }
