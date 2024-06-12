@@ -17,11 +17,10 @@ const Mission = () => {
           de moi en apportant dans mes bagages humilité et bienveillance.
         </p>
         <p>
-          Ma mission, celle que je me suis fixé à titre personnelle, dans une
-          temporalité plus lointaine, est de prendre part à ce monde qui est en
-          train d'évoluer. D'apprendre, de comprendre, de créer, modifier, en
-          d'autres termes faire évoluer, autant que faire se peut, positivement
-          notre monde.
+          Ma mission, dans une temporalité plus lointaine, est de prendre part à
+          ce monde qui est en train d'évoluer. D'apprendre, de comprendre, de
+          créer, modifier, en d'autres termes faire évoluer, autant que faire se
+          peut, positivement notre monde.
         </p>
       </div>
     </section>
