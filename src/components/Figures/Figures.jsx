@@ -5,7 +5,7 @@ import "./figures.scss";
 const Figures = () => {
   return (
     <section id="figures" className="container_figures">
-      <div className="overlay"></div>
+      {/* <div className="overlay"></div> */}
       <div className="container_figures_text">
         <div className="divider"></div>
         <h2>Quelques chiffres</h2>

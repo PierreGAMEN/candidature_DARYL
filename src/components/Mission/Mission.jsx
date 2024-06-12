@@ -4,7 +4,7 @@ import "./mission.scss";
 const Mission = () => {
   return (
     <section id="mission" className="container_mission">
-      <div className="overlay"></div>
+      {/* <div className="overlay"></div> */}
       <div className="container_mission_text">
         <div className="divider"></div>
         <h2>Ma mission</h2>
