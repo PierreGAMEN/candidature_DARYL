@@ -2,7 +2,7 @@
 
 ## Description
 
-L'objectif de ce site est de permettre aux utilisateurs de créer une lettre de motivation personnalisée aux couleurs de l'entreprise DarylSoftware.
+L'objectif de ce site est de permettre aux utilisateurs de créer une lettre de motivation personnalisée aux couleurs de l'entreprise DarylSoftware (JUIN 2024).
 
 ## Liens
 
