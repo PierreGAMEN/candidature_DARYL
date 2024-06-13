@@ -10,7 +10,6 @@ L'objectif de ce site est de permettre aux utilisateurs de créer une lettre de 
 - **Live Site**: [https://candidature-darylsoftware.netlify.app/](https://candidature-darylsoftware.netlify.app/)
 - **Site original**: [https://www.darylsoftware.com/](https://www.darylsoftware.com/)
 
-
 ## Technologies Utilisées
 
 - **Frontend** : React, Vite, SCSS
